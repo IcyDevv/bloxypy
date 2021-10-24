@@ -1,6 +1,6 @@
-# blox.py
+# bloxy.py
 
-![](https://img.shields.io/github/stars/IcyDevv/blox.py) ![](https://img.shields.io/github/forks/IcyDevv/blox.py) ![](https://img.shields.io/github/license/IcyDevv/blox.py) ![](https://img.shields.io/github/issues/IcyDevv/blox.py)
+![](https://img.shields.io/github/stars/IcyDevv/bloxy.py) ![](https://img.shields.io/github/forks/IcyDevv/bloxy.py) ![](https://img.shields.io/github/license/IcyDevv/bloxy.py) ![](https://img.shields.io/github/issues/IcyDevv/bloxy.py)
 
 A simple Python API Wrapper for roblox!
 
