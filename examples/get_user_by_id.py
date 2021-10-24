@@ -7,6 +7,6 @@ async def main():
     user_object = await client.get_user_by_id(1) # This returns the user object.
     if user_object: # Checking if this user exists.
         print('This user exists!')
-        print(user_object.name, user_object.id, user_object.status, user_object.about) 
+        print(user_object.name, user_object.id, user_object.status, user_object.about) # if users exists, it runs true and prints the player name and status
 
-asyncio.run(main())
+asyncio.run(main()) # runs the function
