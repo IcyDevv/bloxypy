@@ -130,3 +130,23 @@ class Client:
 
         return User(data['name'], data['id'], status_data['status'], data['description'])  
 
+    async def get_asset(self, assetID):
+        try:
+            assetID = int(assetID)
+        except ValueError:
+            raise ValueError(f'userID must be an int not a {type(userID)}.')
+
+        response = requests.get(url=f'https://www.roblox.com/assets/{userID}')
+        if response.status_code == 409:
+            return None
+        
+        data = response.json()
+        if data['description'] == '':
+            data['description'] = None
+
+        version_data = requests.get(url=f'https://www.roblox.com/assets/{userID}/verisons').json()
+        if version_data['version'] == '':
+            version_data['version'] = None
+
+        return Asset(data['name'], data['id'], status_data['version'], data['description'])  
+    
