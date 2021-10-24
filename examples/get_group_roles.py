@@ -9,8 +9,10 @@ async def Main():
 
   if group_roles:
     print("group roles found!")
+    return True
   else:
     print("no group roles found!")
+    return False 
 
 
 
