@@ -148,5 +148,5 @@ class Client:
         if version_data['version'] == '':
             version_data['version'] = None
 
-        return Asset(data['name'], data['id'], status_data['version'], data['description'])  
+        return Asset(data['name'], data['id'], version_data['version'], data['description'])  
     
