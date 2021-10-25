@@ -28,7 +28,7 @@ $ pip install git+https://github.com/IcyDevv/bloxypy.git
 import bloxpy
 import asyncio
 
-client = bloxapi.Client(None)
+client = bloxypy.Client(None)
 
 async def main():
     user_object = await client.get_user_by_id(1) # This returns the user object.
