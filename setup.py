@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="bloxy", 
-    version="1.2.0",
+    version="1.2.1",
     author="Icy",
     author_email="icydevv026@gmail.com",
     description="A modern & simple to use API wrapper that handles ROBLOX interactions.",
