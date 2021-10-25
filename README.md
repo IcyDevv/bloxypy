@@ -19,7 +19,7 @@ A simple Python API Wrapper for roblox!
 $ python -m pip install --upgrade pip
 
 # Install the Module
-$ pip install git+https://github.com/IcyDevv/blox.py.git
+$ pip install git+https://github.com/IcyDevv/bloxypy.git
 ```
 
 ### Basic Example
