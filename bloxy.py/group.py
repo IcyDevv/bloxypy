@@ -51,6 +51,7 @@ class Group:
         user = []
         for i in data['members']:
             if i == userid:
+                user = [userid]
                 return True
             else:
                 return False
