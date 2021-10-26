@@ -44,4 +44,17 @@ class Group:
         for i in data['roles']:
             roles.append(Role(i['name'], i['id'], i['rank'], i['memberCount']))
         return roles
+    
+    
+    async def user_is_in_group(self, userid):
+        data = requests.get(url=f'https://groups.roblox.com/v1/groups/{self.id}/members').json()
+        user = []
+        for i in data['members']:
+            if i == userid:
+                return True
+            else:
+                return False
+        return user                
+                
+                
 
