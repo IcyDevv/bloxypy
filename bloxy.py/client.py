@@ -134,9 +134,9 @@ class Client:
         try:
             assetID = int(assetID)
         except ValueError:
-            raise ValueError(f'userID must be an int not a {type(userID)}.')
+            raise ValueError(f'userID must be an int not a {type(assetID)}.')
 
-        response = requests.get(url=f'https://www.roblox.com/assets/{userID}')
+        response = requests.get(url=f'https://www.roblox.com/assets/{assetID}')
         if response.status_code == 409:
             return None
         
@@ -144,7 +144,7 @@ class Client:
         if data['description'] == '':
             data['description'] = None
 
-        version_data = requests.get(url=f'https://www.roblox.com/assets/{userID}/verisons').json()
+        version_data = requests.get(url=f'https://www.roblox.com/assets/{assetID}/verisons').json()
         if version_data['version'] == '':
             version_data['version'] = None
 
