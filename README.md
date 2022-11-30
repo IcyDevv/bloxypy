@@ -4,6 +4,11 @@
 
 A simple Python API Wrapper for roblox!
 
+# ⚠️ ATTENTION , PLEASE READ! ⚠️
+## Message from 30/11/2022 or 11/30/2022
+
+## To any Roblox's developers using bloxy.py in a python related roblox projects. This message is for people still using bloxy.py in late 2022. In February of 2023 (Exact date wll be specified soon.) Bloxypy will end support and will no longer be apart of github as it will go private. The reason for this change is the code is messy and outdated and alot of the functions have tons of bugs making it almost impossible to use. The project has been inactive for almost 9 mouths and to any users, I aplogize for this. I will release some more update until about January when the day comes that it will end support completely. A new, improved, revamped version of bloxypy will release in the beginning of 2023. Imformation about that will be release soon. For now this is a warning and disclaimer for any devforum users on roblox interested and impressed with the project.
+
 ### Key Features
 
 - Covers a large majority of the ROBLOX API.
